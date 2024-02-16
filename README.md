@@ -27,7 +27,7 @@ Evote is a comprehensive platform for issue tracking, service rating, authentica
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/evote.git
+git clone https://github.com/rachit-bharadwaj/eVote-web
 ```
 
 2. Install dependencies:
