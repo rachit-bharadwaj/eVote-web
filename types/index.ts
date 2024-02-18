@@ -6,3 +6,9 @@ export type NavItem = {
   url: string;
   className?: string;
 };
+
+export type FeatureCard = {
+  Icon: ElementType;
+  title: string;
+  descriptionPoints: Array<string>;
+};

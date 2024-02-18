@@ -3,10 +3,8 @@
 import Link from "next/link";
 
 const Hero = () => {
-  const scrollToLearnMore = () => {
-    document
-      .getElementById("learn-more")
-      ?.scrollIntoView({ behavior: "smooth" });
+  const scrollToFeatures = () => {
+    document.getElementById("features")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -23,17 +21,17 @@ const Hero = () => {
       <div className="mt-10 md:mt-20 flex gap-5 md:gap-14 flex-col md:flex-row">
         <Link
           href="/issues"
-          className="flex rounded-xl py-2 px-5 ring-primary-300 ring text-primary-100 bg-primary-400/50"
+          className="flex rounded-xl py-2 px-10 ring-primary-300 ring text-primary-100 bg-primary-400/50"
         >
-          <p>Submit issue</p>
+          <p className="sm:text-lg">Submit issue</p>
         </Link>
 
-        <Link
-          href="/issues"
-          className="flex rounded-xl py-2 px-5 ring-primary-300 ring text-primary-100 bg-primary-400/50"
+        <button
+          onClick={scrollToFeatures}
+          className="flex rounded-xl py-2 px-10 sm:text-lg ring-primary-300 ring text-primary-100 bg-primary-400/50"
         >
-          <button onClick={scrollToLearnMore}>Learn More</button>
-        </Link>
+          Learn More
+        </button>
       </div>
     </section>
   );
