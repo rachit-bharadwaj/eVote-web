@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+import plugin from "tailwindcss/plugin";
+
 const config = {
   darkMode: ["class"],
   content: [
@@ -18,6 +20,12 @@ const config = {
       },
     },
     extend: {
+      textShadow: {
+        sm: "0 1px 2px #045d5d",
+        DEFAULT: "0 2px 4px #045d5d",
+        lg: "0 8px 16px #045d5d",
+      },
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -78,7 +86,19 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          "text-shadow": (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme("textShadow") }
+      );
+    }),
+  ],
 } satisfies Config;
 
 export default config;

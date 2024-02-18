@@ -134,3 +134,46 @@
 - **Documentation**
   - Documentation Platform: Notion, Confluence
   - API Documentation: Swagger, OpenAPI
+
+
+
+
+  <!-- provisional wireframe -->
+  #### 5. Provisional Wireframe
+------------------------------------------------------------
+|                         Header                           |
+|----------------------------------------------------------|
+| Logo           Navigation Menu (Home, About, Issues, etc)|
+------------------------------------------------------------
+|                         Hero Section                     |
+|----------------------------------------------------------|
+|                     Banner Image/Video                   |
+|               Catchy Headline & Call to Action           |
+------------------------------------------------------------
+|                      Features Section                    |
+|----------------------------------------------------------|
+| Feature 1                  Feature 2            Feature 3 |
+|   Description              Description          Description|
+|   Call-to-Action Button    Call-to-Action Button         |
+------------------------------------------------------------
+|                       About Us Section                   |
+|----------------------------------------------------------|
+| About Evote Platform                                      |
+| Our Team                                                  |
+| Testimonials                                              |
+------------------------------------------------------------
+|                   How It Works Section                   |
+|----------------------------------------------------------|
+| Step 1                    Step 2                Step 3   |
+|   Description              Description          Description|
+|   Visual Aids              Visual Aids          Visual Aids|
+------------------------------------------------------------
+|                   Get Involved Section                   |
+|----------------------------------------------------------|
+| Join the Movement Button   Become a Volunteer Button     |
+| Social Media Links                                       |
+------------------------------------------------------------
+|                         Footer                           |
+|----------------------------------------------------------|
+| Contact Information       Legal Pages          Copyright  |
+------------------------------------------------------------
